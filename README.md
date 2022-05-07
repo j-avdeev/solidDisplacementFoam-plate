@@ -1,2 +1,2 @@
 # solidDisplacementFoam-plate
-solidDisplacementFoam with laserConvectionBC test case
+solidDisplacementFoam with [laserConvectionBC](https://github.com/j-avdeev/laserConvectionBC) test case
