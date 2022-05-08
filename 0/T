@@ -48,7 +48,7 @@ boundaryField
  
          source1
          {
-             power       350;
+             power       500;//350;
              spotCenter  (0.10 0.10 0);
              normal      (0 1 0);  //- Not used
  
@@ -70,12 +70,12 @@ boundaryField
                   mode linear;
                   points
                   {
-                    p0  (0 0 0);
-                    p1  (0.015 0 0);
+                    p0  (10 50 0);
+                    p1  (90 50 0);
 ////                     p2  (0.05 0.02 0);
 ////                     p3  (0 0.02 0);
                   }
-                  linearVelocity 0.05;
+                  linearVelocity 1.5;
               }
          }
 
